@@ -1,25 +1,171 @@
-# 💫 About Me:
-🚀 Working on crypto-integrated projects like e-commerce & Web3 apps  <br>🌱 Learning cryptography, blockchain internals & DSA  <br>🤝 Open to collaborating on Web3, DeFi & backend systems  <br>💬 Ask me about DSA, smart contracts & system design  <br>⚡ Fun fact: I enjoy optimizing algorithms and breaking blockchains (ethically 😄)<br>
+# swas3301.tech
 
+A full-stack portfolio and web application showcasing modern web development with React and FastAPI.
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/swastik) [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/https://facebook.com/swastik) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://instagram.com/swastik) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://linkedin.com/swastik) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/https://reddit.com/swastik) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/https://x.com/swastik) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@https:/youtube.com/swastik) 
+## 🌟 Features
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Playwright](https://img.shields.io/badge/-playwright-%232EAD33?style=for-the-badge&logo=playwright&logoColor=white) ![Selenium](https://img.shields.io/badge/-selenium-%43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![TOR](https://img.shields.io/badge/tor-%237E4798.svg?style=for-the-badge&logo=tor-project&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=swas3301&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=swas3301&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=swas3301&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+- **Modern React Frontend**: Built with React 19, Tailwind CSS, and shadcn/ui components
+- **FastAPI Backend**: High-performance Python backend with MongoDB integration
+- **Responsive Design**: Beautiful, responsive UI with dark mode support
+- **Custom Domain**: Hosted at [swas3301.tech](https://swas3301.tech)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=swas3301&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+## 🛠️ Technology Stack
+
+### Frontend
+- **Framework**: React 19
+- **Styling**: Tailwind CSS with custom configuration
+- **UI Components**: Radix UI primitives, shadcn/ui
+- **Animations**: Framer Motion, Spline 3D
+- **Build Tool**: Create React App with CRACO
+- **Routing**: React Router DOM
+
+### Backend
+- **Framework**: FastAPI
+- **Database**: MongoDB with Motor (async driver)
+- **CORS**: Configured for cross-origin requests
+- **Environment**: Python with dotenv for configuration
+
+## 📁 Project Structure
+
+```
+swas3301/
+├── frontend/               # React application
+│   ├── src/
+│   │   ├── components/    # React components
+│   │   ├── hooks/         # Custom React hooks
+│   │   └── lib/           # Utility functions
+│   ├── public/            # Static assets
+│   └── package.json       # Frontend dependencies
+├── backend/               # FastAPI application
+│   ├── server.py          # Main server file
+│   └── requirements.txt   # Python dependencies
+├── docs/                  # Documentation
+├── CNAME                  # Custom domain configuration
+└── README.md              # This file
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js** (v16 or higher) and npm/yarn
+- **Python** (v3.8 or higher)
+- **MongoDB** instance (local or cloud)
+
+### Frontend Setup
+
+```bash
+# Navigate to frontend directory
+cd frontend
+
+# Install dependencies
+npm install
+# or
+yarn install
+
+# Create environment file
+cp .env.example .env
+# Edit .env with your API endpoint
+
+# Start development server
+npm start
+# or
+yarn start
+```
+
+The app will open at [http://localhost:3000](http://localhost:3000).
+
+### Backend Setup
+
+```bash
+# Navigate to backend directory
+cd backend
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# On Linux/Mac:
+source venv/bin/activate
+# On Windows:
+venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Create environment file
+cp .env.example .env
+# Edit .env with your MongoDB credentials
+
+# Start the server
+uvicorn server:app --reload
+```
+
+The API will be available at [http://localhost:8000](http://localhost:8000).
+
+## 📦 Building for Production
+
+### Frontend
+
+```bash
+cd frontend
+npm run build
+# or
+yarn build
+```
+
+This creates an optimized production build in the `build/` directory.
+
+### Backend
+
+The backend is production-ready and can be deployed to any Python hosting service:
+- **Railway**: One-click Python deployment
+- **Render**: Free tier available
+- **Vercel**: Serverless Python functions
+- **Heroku**: Traditional hosting
+- **Google Cloud Run**: Containerized deployment
+
+## 🌐 Deployment
+
+This project is configured for **GitHub Pages** (frontend) with a separate backend deployment.
+
+### Frontend Deployment (GitHub Pages)
+
+The repository includes a GitHub Actions workflow that automatically deploys the frontend to GitHub Pages when you push to the `main` branch.
+
+**Manual deployment**:
+```bash
+cd frontend
+npm run deploy
+# or
+yarn deploy
+```
+
+See [docs/DEPLOYMENT.md](./docs/DEPLOYMENT.md) for detailed deployment instructions.
+
+### Backend Deployment
+
+See [backend/README.md](./backend/README.md) for backend-specific deployment options and configurations.
+
+## 📚 Documentation
+
+- [Development Guide](./docs/DEVELOPMENT.md) - Development workflow and best practices
+- [Deployment Guide](./docs/DEPLOYMENT.md) - Complete deployment instructions
+- [Backend Documentation](./backend/README.md) - Backend API and setup details
+
+## 🤝 Contributing
+
+This is a personal portfolio project, but suggestions and feedback are welcome! Feel free to open an issue or reach out.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🔗 Links
+
+- **Live Site**: [swas3301.tech](https://swas3301.tech)
+- **GitHub**: [github.com/swas3301](https://github.com/swas3301)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=swas3301&icon=0&color=0)](https://visitcount.itsvg.in)
 
-  ## 💰 You can help me by Donating
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/httpsL//buymeacofee.com/swastik) [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/httpsL//buymeacofee.com/swastik) 
-
-  
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+**Built with** ❤️ **using React, FastAPI, and modern web technologies**
