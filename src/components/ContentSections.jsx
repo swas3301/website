@@ -30,7 +30,7 @@ export const AboutSection = () => (
             <div className="w-3 h-3 rounded-full" style={{ background: '#FEBC2E' }} />
             <div className="w-3 h-3 rounded-full" style={{ background: '#28C840' }} />
             <span className="ml-4 text-sm" style={{ color: '#4D4D4D', fontFamily: "'Fira Code', monospace" }}>
-              cipher@portfolio:~$
+              swas3301@portfolio:~$
             </span>
           </div>
           <div className="p-6 space-y-4" style={{ fontFamily: "'Fira Code', monospace", fontSize: '15px', lineHeight: 1.8 }}>

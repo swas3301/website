@@ -27,9 +27,8 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed top-0 w-full z-50 transition-all duration-500 ${
-        isScrolled ? 'bg-black/95 backdrop-blur-sm border-b border-white/10' : 'bg-transparent'
-      }`}
+      className={`fixed top-0 w-full z-50 transition-all duration-500 ${isScrolled ? 'bg-black/95 backdrop-blur-sm border-b border-white/10' : 'bg-transparent'
+        }`}
       style={{ height: '80px' }}
     >
       <div className="w-full h-full flex items-center justify-between" style={{ padding: '0 7.6923%' }}>
@@ -41,7 +40,7 @@ const Header = () => {
         >
           <Terminal className="w-5 h-5" style={{ color: '#00FFD1' }} />
           <span className="text-white font-semibold text-xl tracking-wider" style={{ fontFamily: "'Fira Code', monospace" }}>
-            <span style={{ color: '#00FFD1' }}>&lt;</span>CIPHER<span style={{ color: '#00FFD1' }}>/&gt;</span>
+            <span style={{ color: '#00FFD1' }}>&lt;</span>swas3301<span style={{ color: '#00FFD1' }}>/&gt;</span>
           </span>
         </motion.a>
 

@@ -110,7 +110,7 @@ export const ContactSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <motion.div {...fadeInUp} transition={{ delay: 0.1 }} className="space-y-8">
             {[
-              { icon: Mail, label: 'Email', value: 'cipher@web3.dev' },
+              { icon: Mail, label: 'Email', value: 'contactswas3301@gmail.com' },
               { icon: MapPin, label: 'Location', value: 'Decentralized' },
               { icon: Clock, label: 'Availability', value: 'Open for projects' },
             ].map((item) => (
@@ -205,7 +205,7 @@ export const Footer = () => (
       <div className="flex flex-col md:flex-row items-center justify-between gap-6">
         <div className="flex items-center gap-2">
           <span style={{ color: '#00FFD1', fontFamily: "'Fira Code', monospace", fontSize: '14px' }}>
-            {'<'}CIPHER{'/>'}
+            {'<'}swas3301{'/>'}
           </span>
           <span style={{ color: '#4D4D4D', fontFamily: "'Fira Code', monospace", fontSize: '13px' }}>
             // END_OF_TRANSMISSION
@@ -213,7 +213,7 @@ export const Footer = () => (
         </div>
 
         <p style={{ color: '#4D4D4D', fontFamily: "'Fira Code', monospace", fontSize: '12px' }}>
-          0xCIPHER {new Date().getFullYear()} | All rights reserved
+          swas3301 {new Date().getFullYear()} | All rights reserved
         </p>
 
         <button

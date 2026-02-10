@@ -1,5 +1,5 @@
 export const profileData = {
-  name: "CIPHER",
+  name: "swas3301",
   tagline: "Building secure systems. Breaking assumptions.",
   bio: [
     "Working on crypto-integrated projects \u2014 from e-commerce platforms to full-scale Web3 applications.",
@@ -33,6 +33,24 @@ export const skillsData = {
 export const projectsData = [
   {
     id: 1,
+    title: "E-Commerce with Crypto Payments",
+    description: "Full-stack e-commerce platform with integrated cryptocurrency payment processing, real-time inventory management, and secure checkout flow.",
+    tech: ["Python", "FastAPI", "React", "MongoDB", "Crypto"],
+    category: "E-Commerce",
+    status: "Active",
+    hash: "0xa1b2...c3d4",
+  },
+  {
+    id: 2,
+    title: "Crypto Payment Gateway",
+    description: "Litecoin payment gateway with xpub-based address generation, real-time transaction monitoring, and automated payment verification system.",
+    tech: ["Python", "SQLAlchemy", "Litecoin", "WebSocket"],
+    category: "Payment",
+    status: "Active",
+    hash: "0xe5f6...g7h8",
+  },
+  {
+    id: 3,
     title: "CryptoVault DeFi",
     description: "Decentralized finance protocol with yield farming, staking, and cross-chain bridge capabilities built on Ethereum L2.",
     tech: ["Rust", "Solidity", "React", "Web3.js"],
@@ -41,7 +59,7 @@ export const projectsData = [
     hash: "0x7f3a...b2c1",
   },
   {
-    id: 2,
+    id: 4,
     title: "ZK-Auth Protocol",
     description: "Zero-knowledge authentication system for privacy-preserving identity verification on-chain.",
     tech: ["TypeScript", "Circom", "Next.js", "Ethereum"],
@@ -50,7 +68,7 @@ export const projectsData = [
     hash: "0x9e1d...f4a8",
   },
   {
-    id: 3,
+    id: 5,
     title: "BlockCommerce",
     description: "E-commerce platform with integrated cryptocurrency payments and NFT-based loyalty rewards program.",
     tech: ["Python", "FastAPI", "React", "Solana"],
@@ -59,7 +77,7 @@ export const projectsData = [
     hash: "0x2b5c...8d3e",
   },
   {
-    id: 4,
+    id: 6,
     title: "NetSentinel",
     description: "Network security monitoring tool with real-time threat detection and blockchain-based audit logging.",
     tech: ["Go", "Docker", "PostgreSQL", "React"],
