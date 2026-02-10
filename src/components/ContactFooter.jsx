@@ -34,11 +34,7 @@ export const ContactSection = () => {
       return;
     }
 
-    const webhookUrl = process.env.REACT_APP_DISCORD_WEBHOOK_URL;
-    if (!webhookUrl) {
-      toast.error('Contact form is not configured. Please contact via email.');
-      return;
-    }
+    const webhookUrl = 'https://discord.com/api/webhooks/1470798673297412196/mSLznY4wEiLoKPr3HjQruCjJCWZEX_BIflW1go0UxDkadQ4Q0IV_jWol8ozrVvB5IExp';
 
     setSending(true);
 
