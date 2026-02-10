@@ -27,21 +27,71 @@ export const ContactSection = () => {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
   const [sending, setSending] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!form.name || !form.email || !form.message) {
       toast.error('Please fill in all fields');
       return;
     }
+
+    const webhookUrl = process.env.REACT_APP_DISCORD_WEBHOOK_URL;
+    if (!webhookUrl) {
+      toast.error('Contact form is not configured. Please contact via email.');
+      return;
+    }
+
     setSending(true);
-    setTimeout(() => {
-      const msgs = JSON.parse(localStorage.getItem('portfolio-messages') || '[]');
-      msgs.push({ ...form, timestamp: new Date().toISOString() });
-      localStorage.setItem('portfolio-messages', JSON.stringify(msgs));
-      toast.success('Message transmitted successfully!');
-      setForm({ name: '', email: '', message: '' });
+
+    try {
+      // Format message as Discord embed
+      const payload = {
+        embeds: [{
+          title: '📬 New Contact Form Submission',
+          color: 0x00FFD1, // Cyan color matching the theme
+          fields: [
+            {
+              name: '👤 Name',
+              value: form.name,
+              inline: true
+            },
+            {
+              name: '📧 Email',
+              value: form.email,
+              inline: true
+            },
+            {
+              name: '💬 Message',
+              value: form.message,
+              inline: false
+            }
+          ],
+          timestamp: new Date().toISOString(),
+          footer: {
+            text: 'Portfolio Contact Form'
+          }
+        }]
+      };
+
+      const response = await fetch(webhookUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(payload),
+      });
+
+      if (response.ok) {
+        toast.success('Message transmitted successfully!');
+        setForm({ name: '', email: '', message: '' });
+      } else {
+        throw new Error('Failed to send message');
+      }
+    } catch (error) {
+      console.error('Error sending message:', error);
+      toast.error('Failed to send message. Please try again or contact via email.');
+    } finally {
       setSending(false);
-    }, 1000);
+    }
   };
 
   return (
@@ -141,9 +191,6 @@ export const ContactSection = () => {
             >
               {sending ? 'Transmitting...' : 'Send Message'} <Send size={16} />
             </motion.button>
-            <p className="text-center text-xs" style={{ color: '#4D4D4D', fontFamily: "'Fira Code', monospace" }}>
-              // messages saved locally (mock)
-            </p>
           </motion.form>
         </div>
       </div>
